@@ -1,0 +1,40 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "description": "learning .NET core + front end things",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "webpack --progress --colors",
+    "watch": "webpack --progress --colors --watch"
+  },
+  "keywords": [
+    "Me",
+    "Sandbox"
+  ],
+  "author": "Me",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.13.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-react": "^6.9.0",
+    "expose-loader": "^0.7.1",
+    "jeet": "^7.1.0",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.4.0",
+    "webpack": "^2.2.0"
+  },
+  "dependencies": {
+    "moment": "^2.17.1",
+    "qs": "^6.3.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
